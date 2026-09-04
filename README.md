@@ -54,6 +54,20 @@ ensemble-xai-imagenet/
 
 Set `XAI_DATA_DIR` if your data folder is elsewhere.
 
+## Sample results
+
+### Aggregation comparison
+
+The same image is shown with mean, weighted-mean, median, and geometric-mean ensemble attribution maps.
+
+![Aggregation comparison](results/aggregation-comparison.png)
+
+### Attribution and segmentation overlay
+
+The visualization compares the source image, segmentation mask, attribution heatmap, and their overlay.
+
+![Attribution and segmentation overlay](results/attribution-overlay.png)
+
 ## Important evaluation note
 
 The included evaluation values are lightweight, transparent diagnostic proxies. They are **not official Quantus benchmark metrics**. The notebook labels them accordingly so that results are not overstated. A future extension can add documented Quantus metric classes with their required model and data wrappers.
