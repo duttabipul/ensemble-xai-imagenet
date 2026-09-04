@@ -60,13 +60,13 @@ Set `XAI_DATA_DIR` if your data folder is elsewhere.
 
 The same image is shown with mean, weighted-mean, median, and geometric-mean ensemble attribution maps.
 
-![Aggregation comparison](results/aggregation-comparison.png)
+![Aggregation comparison](aggregation-comparison.png)
 
 ### Attribution and segmentation overlay
 
 The visualization compares the source image, segmentation mask, attribution heatmap, and their overlay.
 
-![Attribution and segmentation overlay](results/attribution-overlay.png)
+![Attribution and segmentation overlay](attribution-overlay.png)
 
 ## Important evaluation note
 
