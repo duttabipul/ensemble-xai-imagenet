@@ -1,0 +1,24 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Credentials and environment files
+.env
+kaggle.json
+*.key
+
+# Data and generated results
+data/
+results/
+*.pkl
+*.pickle
+*.csv
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
